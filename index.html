@@ -5,9 +5,467 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lexicon</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="./asset/css/style.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <!-- Navbar -->
+          <img src="./asset/img/Lexicon Logo 1.png" alt="logo" style="width: 180px; height: auto;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Universities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Guides</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-cprimary ms-md-2 ms-0" href="#">
+                <img src="./asset/img/united-states-of-america 1.png" alt="flag" style="width: 18px; height: auto;">
+                USD
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-cprimary ms-md-2 ms-0" href="#">
+                <i class="bi bi-person-circle"></i>
+                Sign In
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="hero">
+      <div class="container pt-3">
+        <div class="row pt-5">
+          <div class="col-md-6">
+            <a href="" class="btn btn-light">Never Stop Learning</a>
+            <h1 class="hero-title py-4">Grow up your skills by online courses with Lexicon</h1>
+            <a href="" class="btn btn-cprimary px-4 py-3">EXPLORE PATH</a>
+          </div>
+          <div class="col-md-6">
+            <img src="./asset/img/hero1 add.png" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top: -45px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="" data-bs-toggle="modal" data-bs-target="#video">
+              <i class="bi bi-play-circle-fill text-primary-color display-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- video -->
+<div class="modal fade" id="video" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen-xxl-down">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- <video width="320" height="240" controls autoplay muted> -->
+        <video width="100%" height="100%" controls>
+          <source src="./asset/video/How to Use Bae Card.webm" type="video/mp4">
+          <source src="./asset/video/How to Use Bae Card.webm" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+    <section id="courses">
+
+      <div class="container-fluid py-4">
+        <div class="row px-3">
+          <div class="col-12 ccard">
+            <div class="container">
+              <div class="row py-5">
+
+                <div class="col-md-3 pb-md-0 pb-3">
+                  <div class="card">
+                    <img src="./asset/img/Rectangle 2749.png" class="card-img-top" alt="image">
+                    <div class="card-student-box">
+                      <div class="row justify-content-center">
+                        <div class="col-8">
+                          <div class="card-student-card py-2">
+                            <!-- <i class="bi bi-people-fill"></i> -->
+                            <i class="bi bi-person-circle"></i>
+                            <span class="card-student-text">+ 40 students</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">IELTS REGISTRATION</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur. Et ullamcorper amet phasellus eleifend quisque urna. Tellus adipiscing in nullam ac faucibus. Tempus elit.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <span class="card-price">৳ 380</span>
+                          <span class="card-price-old"><del>৳ 500</del></span>
+                        </div>
+                        <div>
+                          <a href="#" class="btn btn-cprimary card-btn">Enroll Now</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 pb-md-0 pb-3">
+                  <div class="card">
+                    <img src="./asset/img/Rectangle 2749 (1).png" class="card-img-top" alt="image">
+                    <div class="card-student-box">
+                      <div class="row justify-content-center">
+                        <div class="col-8">
+                          <div class="card-student-card py-2">
+                            <!-- <i class="bi bi-people-fill"></i> -->
+                            <i class="bi bi-person-circle"></i>
+                            <span class="card-student-text">+ 40 students</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">IELTS REGISTRATION</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur. Et ullamcorper amet phasellus eleifend quisque urna. Tellus adipiscing in nullam ac faucibus. Tempus elit.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <span class="card-price">৳ 380</span>
+                          <span class="card-price-old"><del>৳ 500</del></span>
+                        </div>
+                        <div>
+                          <a href="#" class="btn btn-cprimary card-btn">Enroll Now</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 pb-md-0 pb-3">
+                  <div class="card">
+                    <img src="./asset/img/Rectangle 2749 (2).png" class="card-img-top" alt="image">
+                    <div class="card-student-box">
+                      <div class="row justify-content-center">
+                        <div class="col-8">
+                          <div class="card-student-card py-2">
+                            <!-- <i class="bi bi-people-fill"></i> -->
+                            <i class="bi bi-person-circle"></i>
+                            <span class="card-student-text">+ 40 students</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">IELTS REGISTRATION</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur. Et ullamcorper amet phasellus eleifend quisque urna. Tellus adipiscing in nullam ac faucibus. Tempus elit.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <span class="card-price">৳ 380</span>
+                          <span class="card-price-old"><del>৳ 500</del></span>
+                        </div>
+                        <div>
+                          <a href="#" class="btn btn-cprimary card-btn">Enroll Now</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 pb-md-0 pb-3">
+                  <div class="card">
+                    <img src="./asset/img/Rectangle 2749 (3).png" class="card-img-top" alt="image">
+                    <div class="card-student-box">
+                      <div class="row justify-content-center">
+                        <div class="col-8">
+                          <div class="card-student-card py-2">
+                            <!-- <i class="bi bi-people-fill"></i> -->
+                            <i class="bi bi-person-circle"></i>
+                            <span class="card-student-text">+ 40 students</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">IELTS REGISTRATION</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur. Et ullamcorper amet phasellus eleifend quisque urna. Tellus adipiscing in nullam ac faucibus. Tempus elit.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <span class="card-price">৳ 380</span>
+                          <span class="card-price-old"><del>৳ 500</del></span>
+                        </div>
+                        <div>
+                          <a href="#" class="btn btn-cprimary card-btn">Enroll Now</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 text-center pt-4">
+                  <a href="" class="btn btn-cprimary px-4 py-3">
+                    Browse Courses
+                    <i class="bi bi-caret-right-fill"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="map">
+
+      <div class="container-fluid pb-4">
+        <div class="row px-3">
+          <div class="col-12 ccard">
+            <div class="container">
+              <div class="row justify-content-center py-5">
+                <div class="col-12">
+                  <h1 class="map-title">We match students with universities all over the world</h1>
+                  <img src="./asset/img/Group.png" alt="map" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="container-fluid py-4">
+        <div class="row justify-content-center text-center align-items-center">
+
+          <div class="col-md-2">
+            <img src="./asset/img/c1.png" alt="image" class="img-fluid">
+          </div>
+          <div class="col-md-2">
+            <img src="./asset/img/c2.png" alt="image" class="img-fluid">
+          </div>
+          <div class="col-md-2">
+            <img src="./asset/img/c3.png" alt="image" class="img-fluid">
+          </div>
+          <div class="col-md-2">
+            <img src="./asset/img/c4.png" alt="image" class="img-fluid">
+          </div>
+          <div class="col-md-2">
+            <img src="./asset/img/c5.png" alt="image" class="img-fluid">
+          </div>
+          <div class="col-md-2">
+            <img src="./asset/img/c6.png" alt="image" class="img-fluid">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="category">
+
+      <div class="container-fluid py-4">
+        <div class="row px-3">
+          <div class="col-12 ccard">
+            <div class="container">
+              <div class="row py-5">
+                <div class="col-12">
+                  <div class="row text-center">
+                    <h1 class="category-title">Courses Category</h1>
+                    <p class="category-text">Onlearing  is one powerful online software suite that combines all the tools <br> needed to run a successful school or office.</p>
+
+                    <div class="col-md-3 pb-md-0 pb-3">
+                      <div class="cat-card">
+                        <i class="bi bi-circle-fill fs-1" style="color: #A3D3FF;"></i>
+                        <h4 class="fw-bold text-primary-color">IELST</h4>
+                        <p class="category-text py-2">Lorem ipsum dolor sit amet consectetur. Et malesuada.</p>
+                        <a href="" class="btn btn-outline-cprimary" id="hover-change-1">more</a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 pb-md-0 pb-3">
+                      <div class="cat-card">
+                        <i class="bi bi-circle-fill fs-1" style="color: #F1C9FF;"></i>
+                        <h4 class="fw-bold text-primary-color">IELST</h4>
+                        <p class="category-text py-2">Lorem ipsum dolor sit amet consectetur. Et malesuada.</p>
+                        <a href="" class="btn btn-outline-cprimary" id="hover-change-2">more</a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 pb-md-0 pb-3">
+                      <div class="cat-card">
+                        <i class="bi bi-circle-fill fs-1" style="color: #FFB800;"></i>
+                        <h4 class="fw-bold text-primary-color">IELST</h4>
+                        <p class="category-text py-2">Lorem ipsum dolor sit amet consectetur. Et malesuada.</p>
+                        <a href="" class="btn btn-outline-cprimary" id="hover-change-3">more</a>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="cat-card">
+                        <i class="bi bi-circle-fill fs-1" style="color: #CAC9FF;"></i>
+                        <h4 class="fw-bold text-primary-color">IELST</h4>
+                        <p class="category-text py-2">Lorem ipsum dolor sit amet consectetur. Et malesuada.</p>
+                        <a href="" class="btn btn-outline-cprimary" id="hover-change-4">more</a>
+                      </div>
+                    </div>
+                    <div class="col-12 pt-4">
+                      <a href="" class="btn btn-outline-cprimary px-5">View All</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+
+        const button1 = document.getElementById("hover-change-1");
+        button1.addEventListener("mouseover", function() {button1.textContent = "Explore courses ";});
+        button1.addEventListener("mouseout", function() {button1.textContent = "more";});
+      
+        const button2 = document.getElementById("hover-change-2");
+        button2.addEventListener("mouseover", function() {button2.textContent = "Explore courses ";});
+        button2.addEventListener("mouseout", function() {button2.textContent = "more";});
+      
+        const button3 = document.getElementById("hover-change-3");
+        button3.addEventListener("mouseover", function() {button3.textContent = "Explore courses ";});
+        button3.addEventListener("mouseout", function() {button3.textContent = "more";});
+      
+        const button4 = document.getElementById("hover-change-4");
+        button4.addEventListener("mouseover", function() {button4.textContent = "Explore courses ";});
+        button4.addEventListener("mouseout", function() {button4.textContent = "more";});
+      
+      </script>
+    </section>
+
+    <section id="about">
+
+      <div class="container-fluid py-4">
+        <div class="row px-3">
+          <div class="col-12 ccard">
+            <div class="container">
+              <div class="row justify-content-center align-items-center py-5">
+                <div class="col-md-5 mb-md-0 mb-3">
+                  <img src="./asset/img/about.png" alt="image" class="img-fluid about-img">
+                </div>
+                <div class="col-md-7">
+                  <h1 class="about-title">Our Services and Beyond</h1>
+                  <p class="about-text">Lexicon, official test venue for IELTS and Cambridge O/A-Level Exams in Khulna, Bangladesh, is your gateway to success. We offer IELTS Preparation Courses, Mock Tests, registration, and English courses in partnership with British Council. With a proven track record since 2014, Lexicon is renowned for its excellence in IELTS and English language teaching. As a trusted partner of the prestigious BRITISH COUNCIL, we provide comprehensive IELTS preparation and exam facilities. Our certified trainers, with Cambridge CELTA and British Council accreditation, conduct ESL classes for all levels. We take pride in our distinctive course materials adapted from top-quality UK resources. Join us at Lexicon and embrace “The Future Begins Here” as we guide you towards success.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- <section id="demo">
+
+      <div class="container-fluid py-4">
+        <div class="row px-3">
+          <div class="col-12 ccard">
+            <div class="container">
+              <div class="row py-5">
+                <div class="col-12"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section> -->
+
+    <footer>
+      <div class="container">
+        <div class="row text-md-start text-center">
+          <div class="col-md-4">
+            <a href="" class="">
+              <img src="./asset/img/Lexicon Logo cc.png" alt="logo" class="img-fluid">
+            </a>
+            <p class="pt-4">Funding freemium long tail hypotheses first mover advantage assets ownership</p>
+            <a href="" class="footer-link">
+              <i class="bi bi-envelope"></i>
+              agensi@mail.com
+            </a>
+            <a href="" class="footer-link">
+              <i class="bi bi-telephone"></i>
+              + 12 3456 7890
+            </a>
+          </div>
+
+          <div class="col-md-2 col-6">
+            <p class="footer-link-title">Services</p>
+            <a href="" class="footer-link">Web Hosting</a>
+            <a href="" class="footer-link">Domains</a>
+            <a href="" class="footer-link">Premium Hosting</a>
+            <a href="" class="footer-link">Private Server</a>
+            <a href="" class="footer-link">E-mail Hosting</a>
+          </div>
+          <div class="col-md-2 col-6">
+            <p class="footer-link-title">Company</p>
+            <a href="" class="footer-link">About</a>
+            <a href="" class="footer-link">Blog</a>
+            <a href="" class="footer-link">Join Us</a>
+            <a href="" class="footer-link">Press</a>
+            <a href="" class="footer-link">Partners</a>
+          </div>
+          <div class="col-md-2 col-6">
+            <p class="footer-link-title">Support</p>
+            <a href="" class="footer-link">Pricing Plan</a>
+            <a href="" class="footer-link">Documentation</a>
+            <a href="" class="footer-link">Guide</a>
+            <a href="" class="footer-link">Tutorial</a>
+          </div>
+          <div class="col-md-2 col-6">
+            <p class="footer-link-title">Legal</p>
+            <a href="" class="footer-link">Claim</a>
+            <a href="" class="footer-link">Privacy</a>
+            <a href="" class="footer-link">Terms</a>
+          </div>
+
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-12">
+            <p class="bottom-footer-text">Design with love © Bae Innovation 2024. All right reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
