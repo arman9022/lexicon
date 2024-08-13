@@ -74,6 +74,13 @@ a{
   font-weight: 700;
   font-family: "Raleway", sans-serif;
 }
+.play-section{
+  margin-top: -55px;
+}
+.play-icon{
+  color: #E31E27;
+  font-size: 77px;
+}
 .ccard{
   background: #FFDDDF;
   border-radius: 50px;
