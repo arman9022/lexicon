@@ -81,6 +81,9 @@ a{
   color: #E31E27;
   font-size: 77px;
 }
+.play-icon:hover{
+  color: #ff000d;
+}
 .ccard{
   background: #FFDDDF;
   border-radius: 50px;
