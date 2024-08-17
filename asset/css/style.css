@@ -261,7 +261,63 @@ a{
   padding: 10px 0;
 }
 
+.testimonial-box{
+  text-align: center;
+}
+.testimonial-title{
+  padding-top: 10px;
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+}
+.testimonial-sub-title{
+  color: #E31E27;
+  font-weight: 300;
+  font-size: 16px;
+}
+.testimonial-text{
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.bundle-box{
+  border-radius: 20px;
+  background: #fff;
+}
+.bundle-box-left{
+  position: relative;
+}
+.bundle-box-left img{
+  border-radius: 20px;
+}
+.bundle-left-price{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 3px 10px;
+  color: #E31E27;
+  font-weight: 700;
+  font-size: 12px;
+}
+.bundle-title{
+  color: #E31E27;
+}
+.bundle-right-date{
+  font-size: 12px;
 
+}
+.bundle-right-title{
+  color: #E31E27;
+  font-size: 16px;
+}
+.bundle-right-text{
+  font-size: 12px;
+}
+.bundle-right-student{
+  font-size: 14px;
+}
 
 .cat-card{
   text-align: center;

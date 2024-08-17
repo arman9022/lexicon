@@ -2,32 +2,34 @@
   padding: 70px 0;
 }
 /* Default slide */
-.center-slider .slick-slide{
-  background-color: #b32532;
-  color: #FFF;
-  height: 200px;
-  margin: 0 15px 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.bundle-slider .slick-slide{
+  /* background-color: #b32532; */
+  /* color: #FFF; */
+  /* height: 200px; */
+  /* margin: 0 15px 0 0; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
   transform: scale(0.8);
   transition: all 0.4s ease-in-out;
+  opacity: .5;
 }
-.center-slider .slick-slide,
-.center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+.bundle-slider .slick-slide,
+.bundle-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
   transform: scale(0.8, 0.8);
   transition: all 0.4s ease-in-out;
 }
 
 /* Active center slide (You can change anything here for cenetr slide)*/
-.center-slider .slick-center,
-.center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
+.bundle-slider .slick-center,
+.bundle-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
   transform: scale(1.1);
-  background-color: #000000;
+  background-color: transparent;
 }
-.center-slider .slick-current.slick-active{
+.bundle-slider .slick-current.slick-active{
   transform: scale(1.1);
-  background-color: #000000;
+  background-color: transparent;
+  opacity: 1;
 }
 
 .slick-next, .slick-prev{
@@ -60,4 +62,9 @@ h3 {
   padding: 2%;
   position: relative;
   text-align: center;
+}
+
+.slick-next:before, .slick-prev:before {
+  color:#E31E27;
+  font-size: 26px;
 }
