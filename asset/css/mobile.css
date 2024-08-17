@@ -9,4 +9,19 @@
   .play-icon{
     font-size: 55px;
   }
+
+  .choose-card{
+    padding: 10px;
+    text-align: center;
+  }
+  .choose-title{
+    font-size: 12px;
+  }
+  .choose-text{
+    display: none;
+  }
+  .choose-btn{
+    font-size: 10px;
+  }
+
 }
