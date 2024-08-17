@@ -281,14 +281,14 @@ a{
   font-weight: 400;
 }
 .bundle-box{
-  border-radius: 20px;
+  border-radius: 10px;
   background: #fff;
 }
 .bundle-box-left{
   position: relative;
 }
 .bundle-box-left img{
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .bundle-left-price{
   position: absolute;

@@ -23,5 +23,7 @@
   .choose-btn{
     font-size: 10px;
   }
-
+  .bundle-right-text{
+    display: none;
+  }
 }

@@ -23,6 +23,15 @@ $(document).ready(function(){
     infinite: true,
     autoplaySpeed: 5000,
     autoplay: false,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   });
 });
 
