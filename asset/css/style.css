@@ -57,7 +57,7 @@ a{
   text-decoration: none;
   background: 0 0;
   border: 0;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 .nav-link:focus, .nav-link:hover {
   color: #E31E27;
@@ -83,6 +83,7 @@ a{
   width: 66px; 
   height: 66px;
   z-index: 10;
+  animation: scrollBottomAnimation1 1s linear;
 }
 .play-icon{
   display: flex; 
@@ -91,6 +92,7 @@ a{
   color: #fff ;
   font-size: 55px;
   z-index: 11;
+  animation: scrollBottomAnimation1 2s linear;
 }
 .navigation{
   position: relative;
@@ -100,13 +102,20 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  animation-name: scrollBottomAnimation1;
-  animation-duration: 5s;
+  animation: scrollBottomAnimation1 0s linear;
 }
-@keyframes scrollBottomAnimation1 {
-  0%   {left:0px; top:-100px;}
-  100% {left:0px; top:0px;}
+@keyframes scrollBottomAnimation1{
+  0%{
+    opacity: 0;
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(.01);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 .indicator{
   position: absolute;
@@ -117,7 +126,8 @@ a{
   border-radius: 50%;
   z-index: 3;
   /* border: 6px solid var(--clr); */
-  transition: .5s;
+  transition: .5s; 
+  animation: scrollBottomAnimation1 .5s linear;
 }
 .indicator::before{
   content: '';
@@ -130,6 +140,7 @@ a{
   /* border-top-right-radius: 20px; */
   border-radius: 50%;
   box-shadow: 15px -18px #FFDDDF;
+  animation: scrollBottomAnimation1 .5s linear;
 }
 .indicator::after{
   content: '';
@@ -142,6 +153,7 @@ a{
   /* border-top-right-radius: 20px; */
   border-radius: 50%;
   box-shadow: -15px -18px #FFDDDF;
+  animation: scrollBottomAnimation1 .5s linear;
 }
 .navigation2{
   position: relative;
@@ -152,20 +164,13 @@ a{
   justify-content: center;
   align-items: center;  
   animation-name: scrollBottomAnimation2;
-  animation-duration: 3s;
-}
-@keyframes scrollBottomAnimation2 {
-  0%   {left:0px; top:-3px;}
-  100% {left:0px; top:0px;}
+  animation-duration: 5s;
+  animation-delay: 0s;
 }
 .navigator-text{
   position: relative; 
   animation-name: scrollBottomAnimation3;
   animation-duration: 3s;
-}
-@keyframes scrollBottomAnimation3 {
-  0%   {left:0px; top:50px;}
-  100% {left:0px; top:0px;}
 }
 .indicator2{
   position: absolute;
