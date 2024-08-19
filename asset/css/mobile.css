@@ -26,4 +26,20 @@
   .bundle-right-text{
     display: none;
   }
+  @keyframes left-slide-infinite-animation{
+    100%{
+      margin-right: -15px;
+    }
+  }
+  @keyframes right-slide-infinite-animation{
+    100%{
+      margin-left: 15px;
+    }
+  }
+
+
+
+
+
+
 }

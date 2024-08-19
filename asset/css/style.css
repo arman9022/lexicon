@@ -432,3 +432,49 @@ a{
     margin-left: 100px;
   }
 }
+.zoom-in-animation{
+  animation-name: zoom-in-animation;
+  animation-duration: 3s;
+}
+@keyframes zoom-in-animation{
+  0%{
+    transform: scale(.01);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.zoom-in-out-animation{
+  animation-name: zoom-in-out-animation;
+  animation-duration: .7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes zoom-in-out-animation{
+  0%{
+    transform: scale(.7);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.zoom-hover:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all .3s ease-in-out;
+}
+.round-circle-animation{
+  animation-name: round-circle-animation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes round-circle-animation{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
