@@ -398,3 +398,37 @@ a{
   font-weight: 400;
   text-align: center;
 }
+
+
+.left-slide-infinite-animation{
+  animation-name: left-slide-infinite-animation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes left-slide-infinite-animation{
+  0%{
+    margin-right: 0px;
+  }
+  100%{
+    margin-right: 100px;
+  }
+}
+.right-slide-infinite-animation{
+  animation-name: right-slide-infinite-animation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes right-slide-infinite-animation{
+  0%{
+    margin-left: 0px;
+  }
+  100%{
+    margin-left: 100px;
+  }
+}
