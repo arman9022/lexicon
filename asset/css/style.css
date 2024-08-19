@@ -100,6 +100,13 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  animation-name: scrollBottomAnimation1;
+  animation-duration: 5s;
+}
+@keyframes scrollBottomAnimation1 {
+  0%   {left:0px; top:-100px;}
+  100% {left:0px; top:0px;}
 }
 .indicator{
   position: absolute;
@@ -143,7 +150,22 @@ a{
   background: #FFDDDF;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+  animation-name: scrollBottomAnimation2;
+  animation-duration: 3s;
+}
+@keyframes scrollBottomAnimation2 {
+  0%   {left:0px; top:-3px;}
+  100% {left:0px; top:0px;}
+}
+.navigator-text{
+  position: relative; 
+  animation-name: scrollBottomAnimation3;
+  animation-duration: 3s;
+}
+@keyframes scrollBottomAnimation3 {
+  0%   {left:0px; top:50px;}
+  100% {left:0px; top:0px;}
 }
 .indicator2{
   position: absolute;
